@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="700,600"  bktrans="true" >
+    <VerticalLayout name="father"  width="700" height="600"  bkcolor="#FFB8DFF2">
+        <HorizontalLayout name="sub1"  height="60" borderstyle="1" />
+        <HorizontalLayout  name="sub2" height="100" inset="50,35,0,0" childpadding="100" >
+          <Button width="50" height="30" name="chooseURL" text="图片地址"   ></Button>
+          <Edit width="300" height="30"  name="imageURL" ></Edit>
+          <Button width="50" height="30" text="确定"   name="makesure" normalimage="file='button.png' source='0,0,63,23'" hotimage="file='button.png' source='0,23,63,46'" pushedimage="file='button.png' source='0,23,63,46'" ></Button>
+        </HorizontalLayout>
+      <HorizontalLayout height="400" inset="50,35,50,35"  name="sub2">
+        <Control name="image"  />
+      </HorizontalLayout>
+      <HorizontalLayout height="40"></HorizontalLayout>
+    </VerticalLayout>
+</Window>
